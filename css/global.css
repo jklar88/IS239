@@ -1,0 +1,49 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body
+	{		
+		text-align: center;
+		background-image:url(../images/crisp_paper_ruffles.png);
+		margin: 16px;
+		border:1px solid black;
+		padding: 10px 10px 10px 10px;
+		font-family: sans-serif;
+	}
+
+h1
+	{
+		color: purple;
+		background-color: black;
+		border-bottom: 1px solid purple;
+		font-size: 250%
+	}
+h2
+	{
+		color: pink;
+		background-color: black;
+
+	}
+
+nav {
+	margin-bottom: 10px;
+}
+nav a {
+	background: gray;
+	text-decoration: none;
+	padding: 4px 10px;
+	color: white;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+}
+
+nav a:hover {
+	background: black;
+	color: lime;
+
+}
+
+img {
+	max-width: 100%;
+}
